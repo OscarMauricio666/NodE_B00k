@@ -38,7 +38,7 @@ var Libro = function () {
     setIsbn = function (isbn) {
         sThis.datosLibro.isbn=isbn;
     };
-    return{
+    return {
         getTitulo : getTitulo,
         setTitulo : setTitulo,
         getEditorial : getEditorial,
